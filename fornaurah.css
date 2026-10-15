@@ -1,0 +1,143 @@
+body {
+    background: black;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid pink;
+    margin-bottom: 50px;
+
+}
+
+.profile-text {
+    color: pink;
+    width: 100%;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.judul {
+    margin: 0;
+    padding: 0;
+}
+
+.desk {
+    font-size: 30px;
+    color: #FFE4EC;
+    margin: 0 auto;
+}
+
+.nau-pic {
+    align-items: left;
+    flex-shrink: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    height: 150px;
+    width: 150px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    background-color: #A74765;
+    position: absolute;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    top: 35px;
+    right: 0;
+    white-space: nowrap;
+}
+
+.tooltip:active .tooltip-text {
+    visibility: visible;
+}
+
+.icon i {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: #A74765;
+    font-size: 25px;
+    margin: 10px;
+    width: fit-content;
+    height: 50px;
+}
+
+.card {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.card-header {
+    color: pink;
+    text-align: left;
+    width: 80%;
+    padding: 20px;
+    font-family: sans-serif;
+    flex-shrink: 0;
+    font-size: 40px;
+}
+
+.images {
+    display: flex;
+    padding: 25px;
+    margin-bottom: 20px;
+    gap: 60px;
+}
+
+a {
+    color: pink;
+    text-decoration: none;
+}
+
+.images-item {
+    color: pink;
+    display: flex;
+    font-family: sans-serif;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.images-item img {
+  width: 220px;
+  border-radius: 40px;
+  object-fit: cover;
+  height: 220px;
+  display: flex;
+}
+
+.album-name {
+    text-align: left;
+    color: pink;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.jumlah-foto {
+    text-align: left;
+    color: #FFE4EC;
+    font-size: 20px;
+}
